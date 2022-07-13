@@ -1,0 +1,11 @@
+.ul{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}

@@ -107,6 +107,20 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+.imageContainer {
+  width: 100%;
+}
+
+.imageContainer>span { /* OR change span to div */
+  position: unset !important;
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
 
 @media (max-width: 600px) {
   .grid {
